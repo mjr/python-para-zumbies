@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-dst_a_pcr = input('Qual distância a percorrer(em km)? ')
-vlc_mda_esp = input('Qual a velocidade média esperada para a viagem(em km/h)? ')
+dst_a_pcr = int(input('Qual distância a percorrer(em km)? '))
+vlc_mda_esp = int(input('Qual a velocidade média esperada para a viagem(em km/h)? '))
 
 def tempo(distancia, velocidade):
     return distancia / velocidade

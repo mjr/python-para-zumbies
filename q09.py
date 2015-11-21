@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-qtd_km_prc = input('Quantos km foram percorridos? ')
-qtd_dias_alg = input('Quantos dias o carro foi alugado? ')
+qtd_km_prc = int(input('Quantos km foram percorridos? '))
+qtd_dias_alg = int(input('Quantos dias o carro foi alugado? '))
 
 def calcular_preco_a_pagar(km, dias):
     return km * 0.15 + dias * 60

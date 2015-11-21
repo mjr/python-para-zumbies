@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-qtd_cig_fma_por_dia = input ('Quantos cigarros você fuma por dia? ')
-qtd_anos_fmou = input ('Quantos anos você já fumou? ')
+qtd_cig_fma_por_dia = int(input('Quantos cigarros você fuma por dia? '))
+qtd_anos_fmou = int(input('Quantos anos você já fumou? '))
 
 perda_dia = qtd_cig_fma_por_dia * 10
 perda_mes = perda_dia * 30
